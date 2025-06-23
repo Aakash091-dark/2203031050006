@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# SQLite database
+*.sqlite3
+
+# Secret settings (optional)
+.env
+*.env
+
+# VS Code editor config
+.vscode/
+
+# Python virtual environment
+venv/
+env/
+
+# macOS / Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MyPy & Pyright
+.mypy_cache/
+.pyright/
